@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 250px;
+}
+
+.Scores {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
