@@ -47,7 +47,7 @@ function playRound(humanChoice, computerChoice) {
             winnerText.textContent = `The game is over! You won!`;
             updateScoreDisplay(humanScore, computerScore);
             updateItemPlayed(humanChoice, computerChoice);
-            return;
+            
         }
         else {
             winnerText.textContent = `You win this round!`;
@@ -65,7 +65,7 @@ function playRound(humanChoice, computerChoice) {
             winnerText.textContent = `The game is over! You lost!`;
             updateScoreDisplay(humanScore, computerScore);
             updateItemPlayed(humanChoice, computerChoice);
-            return;
+            
         }
         else {
             winnerText.textContent = "You lost this round! The computer wins this round!";
