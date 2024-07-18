@@ -1,12 +1,26 @@
+* {
+    box-sizing: border-box;
+}
 .buttons {
     display: flex;
     justify-content: center;
-    padding: 250px;
+    padding: 150px;
 }
-
+.reset {
+    display: flex;
+    justify-content: center;
+}
 .Scores {
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
     justify-content: space-between;
+}
+.played {
+    display: flex;
+    justify-content: center;
+}
+.Winner {
+    display: flex;
+    justify-content: center;
 }
